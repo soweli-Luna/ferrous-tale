@@ -5,6 +5,8 @@ use winit::{dpi::PhysicalSize, window::Window};
 use crate::{filesystem::{read_image, FallbackAsset}, game::{Coords, Game}};
 
 
+// Written by soweli Luna
+
 #[derive(Default)]
 pub struct Canvas {
     dynamic_image: DynamicImage,
