@@ -6,9 +6,7 @@ use crate::filesystem::{canonical_join, prefix_path, Slide, ASSETS};
 
 
 
-
-
-
+// Written by soweli Luna
 
 #[derive(Debug)]
 pub struct Game {

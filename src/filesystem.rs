@@ -14,6 +14,8 @@ const ROOT_PREFIX: &str = "story/";
 const YAML_FILENAME: &str = "slide.yaml";
 
 
+// Written by soweli Luna
+
 pub fn read_image(path: PathBuf, fallback: FallbackAsset) -> DynamicImage {
     let full_path = prefix_path(&path);
 
