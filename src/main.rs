@@ -22,6 +22,7 @@ use filesystem::{prefix_path, Slide};
 const SAVE_FILE_PATH: &str = "save.yaml";
 
 /// FerrousTale, a simple slide based interactive story game engine
+//  Written by soweli Luna
 #[derive(Parser, Debug)]
 #[command(version, about, long_about = None)]
 struct Args {
@@ -146,7 +147,7 @@ fn main() {
                 window_id,
             } if window_id == window.id() => {
                 
-                // ~~~~~~~~~~~~~~~~ vvvv ~~~~~~~~~~~~~~~~ INOUT CODE ~~~~~~~~~~~~~~~~ vvvv ~~~~~~~~~~~~~~~~ 
+                // ~~~~~~~~~~~~~~~~ vvvv ~~~~~~~~~~~~~~~~ INPUT CODE ~~~~~~~~~~~~~~~~ vvvv ~~~~~~~~~~~~~~~~ 
 
                 if let Some((button_path, keys_added, keys_removed)) = canvas.click(mouse_pos.x, mouse_pos.y) {
 
