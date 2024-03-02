@@ -599,6 +599,7 @@ dependencies = [
  "clap",
  "image",
  "include_dir",
+ "num-traits",
  "serde",
  "serde_yaml",
  "softbuffer",

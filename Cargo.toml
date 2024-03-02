@@ -9,6 +9,7 @@ edition = "2021"
 clap = { version = "4.5.1", features = ["derive"] }
 image = "0.24.8"
 include_dir = "0.7.3"
+num-traits = "0.2.18"
 serde = { version = "1.0", features = ["derive"] }
 serde_yaml = "0.9.32"
 softbuffer = "0.4.1"
